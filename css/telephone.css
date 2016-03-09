@@ -1,0 +1,43 @@
+.telephone {
+  position: absolute;
+  left: 52px;
+  top: 22px;
+  width: 290px;
+  height: 21px;
+  z-index: 116;
+}
+.телефонная_трубочка {
+  background-image: url("images/телефонная трубочка.png");
+  position: absolute;
+  left: 3px;
+  top: 0px;
+  width: 15px;
+  height: 20px;
+  z-index: 115;
+}
+._044_123_45_67__044_567_89_10_ {
+  font-size: 19.794px;
+  font-family: "Arial";
+  color: rgb( 94, 105, 109 );
+  line-height: 1.415;
+  text-align: center;
+  -moz-transform: matrix( 0.90909090909091, 0, 0, 0.909375, 0, 0);
+  -webkit-transform: matrix( 0.90909090909091, 0, 0, 0.909375, 0, 0);
+  position: absolute;
+  left: 25px;
+  top: 2.017px;
+  width: 264px;
+  height: 17px;
+  z-index: 114;
+}
+.Shape_8 {
+  border-radius: 50%;
+  background-image: -moz-linear-gradient( 90deg, rgb( 32, 105, 136 ) 0%, rgb( 17, 65, 101 ) 59.229%, rgb( 12, 50, 86 ) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb( 32, 105, 136 ) 0%, rgb( 17, 65, 101 ) 59.229%, rgb( 12, 50, 86 ) 100%);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 22px;
+  height: 21px;
+  z-index: 113;
+}
