@@ -48,8 +48,11 @@
   	<div class="contact">
   	  <a href="#">КОНТАКТЫ</a>	
   	</div>
+    <p>на сумму:</p> 
+    <span>товаров:</span>
+  	<img src="./img/basket.png">
   </header>
-  <section>
+  <section class="clerfix">
    <div class="serch_avto">
   	<p class="disc"><span>Д</span>иски:</p>
   	<p class="serch"><span>П</span>оиск по автомобилю</p>
@@ -212,12 +215,10 @@
        </select> 
     </div>
     <div class="serch_avto_3b">
-       <!-- <div class="box3b_1"> -->
-       	<span>ДЦО</span>
+        <span>ДЦО</span>
        	<p>(диаметр</p>
        	<p>центрального</p>
        	<p>отверстия):</p>
-       <!-- </div>	 -->
        <select class="box3b_1_sel">
           <option></option>
   	 	  <option>22</option>
@@ -237,7 +238,7 @@
    </div>
   </form>
   </section>
-  <section>
+  <section class="clerfix">
     <aside class="catalog">
   	  <div class="production">
   		<div class="circle"><img src="./img/list-logo.png"></div>
@@ -274,6 +275,86 @@
   	  	<li><a href="#">Наименование 4</a></li>
   	  </ul>
     </aside>
+    <div class="main">
+        <div class="goodyear">
+          <figure>
+        	<a href="#">Goodyear</a>
+        	<p><a href="#">Ultra Grip Extreme</a></p>
+        	<div>
+        		<a href="#"><img src="./img/wheel goodyear_1.png" title="Goodyear(Ultra Grip Extreme)"></a>
+        	</div>
+        	<figcaption>90.00 грн.</figcaption>
+          </figure>
+          <figure>
+        	<a href="#">Goodyear</a>
+        	<p><a href="#">Ultra Grip Extreme 2</a></p>
+        	<div>
+        		<a href="#"><img src="./img/wheel goodyear_1.png" title="Goodyear(Ultra Grip Extreme 2)"></a>
+        	</div>
+        	<figcaption>190.00 грн.</figcaption>
+          </figure>
+          <figure>
+        	<a href="#">Goodyear</a>
+        	<p><a href="#">Ultra Grip Extreme 3</a></p>
+        	<div>
+        		<a href="#"><img src="./img/wheel goodyear_1.png" title="Goodyear(Ultra Grip Extreme 3)"></a>
+        	</div>
+        	<figcaption>290.00 грн.</figcaption>
+          </figure>
+        </div>
+        <div class="nokian">
+          <figure>
+        	<a href="#">Nokian</a>
+        	<p><a href="#">Hakkapeliitta R</a></p>
+        	<div>
+        		<a href="#"><img src="./img/wheel nokian_1.png" title="Nokian( Hakkapeliitta R)"></a>
+        	</div>
+        	<figcaption>115.00 грн.</figcaption>
+          </figure>
+          <figure>
+        	<a href="#">Nokian</a>
+        	<p><a href="#">Hakkapeliitta R 2</a></p>
+        	<div>
+        		<a href="#"><img src="./img/wheel nokian_1.png" title="Nokian( Hakkapeliitta R 2)"></a>
+        	</div>
+        	<figcaption>215.00 грн.</figcaption>
+          </figure>
+          <figure>
+        	<a href="#">Nokian</a>
+        	<p><a href="#">Hakkapeliitta R 3</a></p>
+        	<div>
+        		<a href="#"><img src="./img/wheel nokian_1.png" title="Nokian( Hakkapeliitta R 3)"></a>
+        	</div>
+        	<figcaption>315.00 грн.</figcaption>
+          </figure>
+        </div>
+        <div class="hankook">
+           <figure>
+        	  <a href="#">Hankook</a>
+        	  <p><a href="#">K 708 155/65 R14</a></p>
+        	  <div>
+        		 <a href="#"><img src="./img/wheel hankook_1.png" title="Hankook(K 708 155/65 R14)"></a>
+        	  </div>
+        	  <figcaption>393.00 грн.</figcaption>
+           </figure>
+           <figure>
+        	  <a href="#">Hankook</a>
+        	  <p><a href="#">K 808 165/75 R15</a></p>
+        	  <div>
+        		 <a href="#"><img src="./img/wheel hankook_1.png" title="Hankook(K 808 165/75 R15)"></a>
+        	  </div>
+        	  <figcaption>493.00 грн.</figcaption>
+           </figure>
+           <figure>
+        	  <a href="#">Hankook</a>
+        	  <p><a href="#">K 908 175/85 R16</a></p>
+        	  <div>
+        		 <a href="#"><img src="./img/wheel hankook_1.png" title="Hankook(K 908 175/85 R16)"></a>
+        	  </div>
+        	  <figcaption>593.00 грн.</figcaption>
+           </figure>
+        </div>
+    </div>
     <aside class="right">
     	<div class="brends">
   		  <div class="circle"><img src="./img/list-logo.png"></div>
@@ -313,13 +394,23 @@
   	         <li><input type="checkbox" id="br_6">
   	           <label for="br_6">Бренд 3</label>
   	         </input></li>
-  	       
   	       </ul>
       	   <input type="submit" value="ВЫБРАТЬ"></input>
       	</form>
-      </div>
-    </aside>
-  </section>
+      </aside>
+  </section>     
+     <div class="footer_img">
+   	    <img src="./img/brands.png">
+     </div>
+  <footer>	
+    	<div class="links">
+    	   <div class="links_1"><a href="#">О компании</a></div>
+    	   <div class="links_2"><a class="cherta" href="#">Доставка</a></div>
+    	   <div class="links_3"><a class="cherta" href="#">Статьи</a></div>
+    	   <div class="links_4"><a href="#">Контакты</a></div>
+    	</div>
+    	<p>Создание сайта &#169 Global Vision</p>
+   </footer>
 </div>
 </body>
 </html>
